@@ -1,0 +1,14 @@
+header{
+
+    grid-area: content;
+    place-self: start center;
+    max-width: 1200px;
+    height: 100px;
+    
+    z-index: 666;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
