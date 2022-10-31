@@ -16,3 +16,18 @@
     -webkit-background-clip: text;
     color: transparent;
 }
+.imagensProjetos{
+
+    display: grid;
+   grid-template-areas:
+                "a b c"
+                "d f g ";
+    grid-template-rows: 194px 194px 194px;
+    grid-template-columns: 316px 316px 316px;
+     gap: 100px;
+     
+}
+.imagemProjeto{
+    
+    background-color: aquamarine;
+}

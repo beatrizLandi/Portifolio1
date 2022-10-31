@@ -21,7 +21,7 @@
     color: transparent;
 }
 .description{
-    margin-top: 18%;
+    padding-top: 170px;
     font-size: 32px;
     grid-area: description;
     
@@ -34,13 +34,14 @@
     
 }
 .containerSkills{
+    padding-top: 50px;
    display: grid;
    grid-template-areas:
                 "a b c"
                 "d f g ";
-    grid-template-rows: 160px 160px 160px;
-    grid-template-columns: 110px 110px 110px;
-   gap: 30px;
+    grid-template-rows: 170px 170px 170px;
+    grid-template-columns: 150px 150px 150px;
+     gap: 30px;
    
   
 
@@ -52,7 +53,7 @@
     background-color: #252525;
     font-size: 32px;
    text-align: center;
-   padding-top: 30px;
+   padding-top: 35px;
     
     
 }

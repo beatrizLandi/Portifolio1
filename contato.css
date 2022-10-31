@@ -7,7 +7,7 @@
                 "contatos icons links";
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 64px;
+    
 }
 .section-title{
     grid-area: title;
@@ -20,11 +20,35 @@
 }
 .conatos{
     grid-area: contatos;
-    background-color: cadetblue;
+   
+    color: aliceblue;
+    font-size: 24px;
+    margin-top: 70%;
+    
+}
+
+.numeroParaContato{
+
+    margin-top: 35px;
+        
 }
 .icons{
+    align-items: center;
     grid-area: icons;
-    background-color: chartreuse;
+   
+    display: flex;
+    gap: 58px;
+    
+}
+.iconCOntato{
+    background-color: #252525;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+   
+
 }
 .links{
     grid-area: links;
