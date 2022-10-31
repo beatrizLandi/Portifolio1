@@ -1,0 +1,32 @@
+.contato{
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+                "title title title"
+                "contatos icons links";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 64px;
+}
+.section-title{
+    grid-area: title;
+    font-size: 220px;
+    text-align: center;
+    background-image: linear-gradient(rgb(233, 227, 227), #000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.conatos{
+    grid-area: contatos;
+    background-color: cadetblue;
+}
+.icons{
+    grid-area: icons;
+    background-color: chartreuse;
+}
+.links{
+    grid-area: links;
+    background-color: coral;
+}

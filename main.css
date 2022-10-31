@@ -10,17 +10,21 @@ section{
 
 .home{
  background-color: lightpink;
+ 
 
 }
 .sobreMim{
-    background-color: lightsteelblue;
+    background-color: black;
 }
 .projetos{
 
-    background-color: royalblue;
+    background-color: black;
+   
 
 }
 .contato{
 
     background-color: orchid;
+   
+    
 }

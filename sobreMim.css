@@ -15,16 +15,45 @@
     grid-area: title;
     font-size: 220px;
     text-align: center;
-    background-image: linear-gradient(#666, #000);
+    background-image: linear-gradient(rgb(233, 227, 227), #000);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
 .description{
+    margin-top: 18%;
+    font-size: 32px;
     grid-area: description;
-    background-color: azure;
+    
 }
 .skills{
+    color: var(--primary-color);
+    font-size: 64px;
     grid-area: skills;
-    background-color: chocolate;
+  
+    
 }
+.containerSkills{
+   display: grid;
+   grid-template-areas:
+                "a b c"
+                "d f g ";
+    grid-template-rows: 160px 160px 160px;
+    grid-template-columns: 110px 110px 110px;
+   gap: 30px;
+   
+  
+
+
+}
+.item{
+
+    color: aliceblue;
+    background-color: #252525;
+    font-size: 32px;
+   text-align: center;
+   padding-top: 30px;
+    
+    
+}
+    
