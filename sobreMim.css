@@ -58,3 +58,35 @@
     
 }
     
+@media screen and (max-width: 960px) {
+    
+    .sobreMim{
+        max-width: 960px;
+        
+        display: flex;
+        grid-template-areas:
+                    "title"
+                    "description "
+                    "skills";
+        grid-template-rows: auto;
+        grid-template-columns:  1fr;
+        gap: 64px;
+        
+    }
+
+    .containerSkills{
+        padding-top: 50px;
+       display: grid;
+       grid-template-areas:
+                    "a b c"
+                    "d f g ";
+        grid-template-rows: 110px 110px 110px;
+        grid-template-columns: 100px 100px 100px;
+         gap: 30px;
+       
+      
+    
+    
+    }
+
+}

@@ -26,11 +26,7 @@
     
 }
 
-.numeroParaContato{
 
-    margin-top: 35px;
-        
-}
 .icons{
 
     display: flex;
@@ -42,7 +38,8 @@
     
 }
 .iconCOntato{
-    background-color: #252525;
+    margin-top: 35px;
+    
     width: 70px;
     height: 70px;
     display: flex;
@@ -52,6 +49,12 @@
 
 }
 .links{
+
+    justify-content: flex-end;
     grid-area: links;
-    background-color: coral;
+    text-align: end;
+    color: aliceblue;
+    font-size: 24px;
+    
+   
 }
