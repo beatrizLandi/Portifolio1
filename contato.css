@@ -36,10 +36,11 @@
     display: flex;
     gap: 58px;
     
+    
 }
 .iconCOntato{
     margin-top: 35px;
-    
+    background-color: #252525;
     width: 70px;
     height: 70px;
     display: flex;
@@ -55,6 +56,16 @@
     text-align: end;
     color: aliceblue;
     font-size: 24px;
-    
-   
 }
+
+.menuFinal li{
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+
+
+}
+.menuFinal i:hover{
+    border-color: var(--primary-color);
+
+}
+

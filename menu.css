@@ -16,3 +16,12 @@
     border-color: var(--primary-color);
 
 }
+
+@media screen and ( max-device-width: 768px), screen and ( max-width: 768px) {
+    .menu{
+    display: none;
+
+    }
+        
+    
+    }

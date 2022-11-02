@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="meedia.css">
+    <link rel="stylesheet" href="tablet.css" media="screen and (max-width: 768px)">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="contato.css">
     <link rel="stylesheet" href="projetos.css">
@@ -62,9 +62,12 @@
         </section>
         <section class="sobreMim" id="sobreMim">
                 <h2 class="section-title">Sobre mim</h2>
-                <div class="section-title"></div>
+
+                
                 <div class="description">
-                    <p>Sou iniciante na area de criação e manutenção de sites.<br>
+                    <h2 class="tituloQuemSou">Quem sou:</h2>
+
+                    <p class="descricoesQuemSou">Sou iniciante na area de criação e manutenção de sites.<br>
                         Tenho conhecimento em protipação em designs,sempre 
                         pensando na experiencia do usuario.<br>
                         Sou apaixonada pelo mundo digital, principalmente desenvolvimento.
@@ -72,8 +75,10 @@
                         que me rodeia</p>
                 </div>
                 <div class="skills">
-                    <h2>Skills:</h2>
+                    <h2 class="tituloSkill">Skills:</h2>
+                    
                     <section class="containerSkills">
+                        
                         <div class="item"> 
                             <img src="imagens/367627_html_html5_icon (3).png "  alt="html icon">
                             <p>html</p>
@@ -108,7 +113,7 @@
          </section>
                     <section class="projetos" id="projetos">
                         <h2 class="section-title">Projetos</h2>
-                        <div class="section-title"></div>
+                       
                         <div class="imagensProjetos">
                          <div class="imagemProjeto">
                              <img src="imagens/Captura de tela 2022-10-30 181218.png" alt="pikachu landing page" height="100%" width="100%">
@@ -161,10 +166,22 @@
                 </div>
                  <div class="links">
                         <h3> <strong>Links:</strong></h3>
-                         <a href="">  inicio</a> <br>
-                         <a href="">  sobre mim </a> <br>
-                         <a href="">   projetos</a> <br>
-                         <a href="">   contatos</a>
+                        <nav>
+                            <ul class="menuFinal">
+                                <li>
+                                    <a href="#home">inicio</a>
+                                </li>
+                                <li>
+                                    <a href="#sobreMim">sobre mim</a>
+                                </li>
+                                <li>
+                                    <a href="#projetos">projeto</a>
+                                </li>
+                                <li>
+                                    <a href="#contato">contato</a>
+                                </li>
+                            </ul>
+                        </nav>
             
                  </div>
              </section>

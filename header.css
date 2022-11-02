@@ -10,5 +10,28 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+
+}
+
+@media screen and ( max-device-width: 768px), screen and ( max-width: 768px) {
+    
+    header{
+
+        grid-area: content;
+        place-self: start center;
+        max-width: 1200px;
+        height: 100px;
+        
+        z-index: 666;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    
+    
 
 }
