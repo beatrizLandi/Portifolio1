@@ -33,3 +33,11 @@ justify-content: center;
     color: var(--primary-color);
 }
 
+@media  and (max-width :768px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+       
+
+     }
+}
